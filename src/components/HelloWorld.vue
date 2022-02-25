@@ -1,4 +1,6 @@
 <script setup>
+import { useCounterStore } from "../stores/counter";
+const counter = useCounterStore()
 defineProps({
   msg: {
     type: String,
@@ -15,6 +17,7 @@ defineProps({
       <a target="_blank" href="https://vitejs.dev/">Vite</a> +
       <a target="_blank" href="https://vuejs.org/">Vue 3</a>.
     </h3>
+    <p>Counter: {{counter.doubleCount}}</p>
   </div>
 </template>
 

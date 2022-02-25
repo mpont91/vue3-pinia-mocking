@@ -12,6 +12,7 @@
     "vue": "^3.2.31"
   },
   "devDependencies": {
+    "@pinia/testing": "^0.0.9",
     "@vitejs/plugin-vue": "^2.2.2",
     "@vue/test-utils": "^2.0.0-rc.18",
     "jsdom": "^19.0.0",
